@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation>v25</xs:documentation>
+    <xs:documentation>07-05-2018 17:34:51</xs:documentation>
+  </xs:annotation>
+  <xs:attribute name="layout">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/hockeyapp_activity_expiry_info" />
+            <xs:enumeration value="@layout/hockeyapp_activity_feedback" />
+            <xs:enumeration value="@layout/hockeyapp_activity_login" />
+            <xs:enumeration value="@layout/hockeyapp_fragment_update" />
+            <xs:enumeration value="@layout/hockeyapp_view_feedback_message" />
+            <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="listfooter">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/hockeyapp_activity_expiry_info" />
+            <xs:enumeration value="@layout/hockeyapp_activity_feedback" />
+            <xs:enumeration value="@layout/hockeyapp_activity_login" />
+            <xs:enumeration value="@layout/hockeyapp_fragment_update" />
+            <xs:enumeration value="@layout/hockeyapp_view_feedback_message" />
+            <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="listheader">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/hockeyapp_activity_expiry_info" />
+            <xs:enumeration value="@layout/hockeyapp_activity_feedback" />
+            <xs:enumeration value="@layout/hockeyapp_activity_login" />
+            <xs:enumeration value="@layout/hockeyapp_fragment_update" />
+            <xs:enumeration value="@layout/hockeyapp_view_feedback_message" />
+            <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="listitem">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/hockeyapp_activity_expiry_info" />
+            <xs:enumeration value="@layout/hockeyapp_activity_feedback" />
+            <xs:enumeration value="@layout/hockeyapp_activity_login" />
+            <xs:enumeration value="@layout/hockeyapp_fragment_update" />
+            <xs:enumeration value="@layout/hockeyapp_view_feedback_message" />
+            <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="text">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/app_name" />
+            <xs:enumeration value="@string/hockeyapp_crash_dialog_app_name_fallback" />
+            <xs:enumeration value="@string/hockeyapp_crash_dialog_message" />
+            <xs:enumeration value="@string/hockeyapp_crash_dialog_negative_button" />
+            <xs:enumeration value="@string/hockeyapp_crash_dialog_neutral_button" />
+            <xs:enumeration value="@string/hockeyapp_crash_dialog_positive_button" />
+            <xs:enumeration value="@string/hockeyapp_crash_dialog_title" />
+            <xs:enumeration value="@string/hockeyapp_dialog_error_message" />
+            <xs:enumeration value="@string/hockeyapp_dialog_error_title" />
+            <xs:enumeration value="@string/hockeyapp_dialog_positive_button" />
+            <xs:enumeration value="@string/hockeyapp_download_failed_dialog_message" />
+            <xs:enumeration value="@string/hockeyapp_download_failed_dialog_negative_button" />
+            <xs:enumeration value="@string/hockeyapp_download_failed_dialog_positive_button" />
+            <xs:enumeration value="@string/hockeyapp_download_failed_dialog_title" />
+            <xs:enumeration value="@string/hockeyapp_error_install_form_unknown_sources_disabled" />
+            <xs:enumeration value="@string/hockeyapp_error_no_external_storage_permission" />
+            <xs:enumeration value="@string/hockeyapp_error_no_network_message" />
+            <xs:enumeration value="@string/hockeyapp_expiry_info_text" />
+            <xs:enumeration value="@string/hockeyapp_expiry_info_title" />
+            <xs:enumeration value="@string/hockeyapp_feedback_attach_file" />
+            <xs:enumeration value="@string/hockeyapp_feedback_attach_picture" />
+            <xs:enumeration value="@string/hockeyapp_feedback_attachment_added" />
+            <xs:enumeration value="@string/hockeyapp_feedback_attachment_button_text" />
+            <xs:enumeration value="@string/hockeyapp_feedback_attachment_error" />
+            <xs:enumeration value="@string/hockeyapp_feedback_attachment_loading" />
+            <xs:enumeration value="@string/hockeyapp_feedback_attachment_remove_description" />
+            <xs:enumeration value="@string/hockeyapp_feedback_attachment_removed" />
+            <xs:enumeration value="@string/hockeyapp_feedback_email_hint" />
+            <xs:enumeration value="@string/hockeyapp_feedback_email_hint_required" />
+            <xs:enumeration value="@string/hockeyapp_feedback_fetching_feedback_text" />
+            <xs:enumeration value="@string/hockeyapp_feedback_last_updated_text" />
+            <xs:enumeration value="@string/hockeyapp_feedback_max_attachments_allowed" />
+            <xs:enumeration value="@string/hockeyapp_feedback_message_hint" />
+            <xs:enumeration value="@string/hockeyapp_feedback_message_hint_required" />
+            <xs:enumeration value="@string/hockeyapp_feedback_name_hint" />
+            <xs:enumeration value="@string/hockeyapp_feedback_name_hint_required" />
+            <xs:enumeration value="@string/hockeyapp_feedback_new_answer_notification_message" />
+            <xs:enumeration value="@string/hockeyapp_feedback_notification_channel" />
+            <xs:enumeration value="@string/hockeyapp_feedback_notification_title" />
+            <xs:enumeration value="@string/hockeyapp_feedback_refresh_button_text" />
+            <xs:enumeration value="@string/hockeyapp_feedback_response_button_text" />
+            <xs:enumeration value="@string/hockeyapp_feedback_screenshot_fail" />
+            <xs:enumeration value="@string/hockeyapp_feedback_screenshot_notification_message" />
+            <xs:enumeration value="@string/hockeyapp_feedback_select_file" />
+            <xs:enumeration value="@string/hockeyapp_feedback_select_picture" />
+            <xs:enumeration value="@string/hockeyapp_feedback_send_button_text" />
+            <xs:enumeration value="@string/hockeyapp_feedback_send_generic_error" />
+            <xs:enumeration value="@string/hockeyapp_feedback_send_network_error" />
+            <xs:enumeration value="@string/hockeyapp_feedback_sending_feedback_text" />
+            <xs:enumeration value="@string/hockeyapp_feedback_sent_toast" />
+            <xs:enumeration value="@string/hockeyapp_feedback_subject_hint" />
+            <xs:enumeration value="@string/hockeyapp_feedback_subject_hint_required" />
+            <xs:enumeration value="@string/hockeyapp_feedback_title" />
+            <xs:enumeration value="@string/hockeyapp_feedback_validate_email_empty" />
+            <xs:enumeration value="@string/hockeyapp_feedback_validate_email_error" />
+            <xs:enumeration value="@string/hockeyapp_feedback_validate_name_error" />
+            <xs:enumeration value="@string/hockeyapp_feedback_validate_subject_error" />
+            <xs:enumeration value="@string/hockeyapp_feedback_validate_text_error" />
+            <xs:enumeration value="@string/hockeyapp_login_email_hint_required" />
+            <xs:enumeration value="@string/hockeyapp_login_headline_text" />
+            <xs:enumeration value="@string/hockeyapp_login_headline_text_email_only" />
+            <xs:enumeration value="@string/hockeyapp_login_login_button_text" />
+            <xs:enumeration value="@string/hockeyapp_login_missing_credentials_toast" />
+            <xs:enumeration value="@string/hockeyapp_login_password_hint_required" />
+            <xs:enumeration value="@string/hockeyapp_paint_dialog_message" />
+            <xs:enumeration value="@string/hockeyapp_paint_dialog_negative_button" />
+            <xs:enumeration value="@string/hockeyapp_paint_dialog_neutral_button" />
+            <xs:enumeration value="@string/hockeyapp_paint_dialog_positive_button" />
+            <xs:enumeration value="@string/hockeyapp_paint_indicator_toast" />
+            <xs:enumeration value="@string/hockeyapp_paint_menu_clear" />
+            <xs:enumeration value="@string/hockeyapp_paint_menu_save" />
+            <xs:enumeration value="@string/hockeyapp_paint_menu_undo" />
+            <xs:enumeration value="@string/hockeyapp_update_already_installed" />
+            <xs:enumeration value="@string/hockeyapp_update_button" />
+            <xs:enumeration value="@string/hockeyapp_update_dialog_message" />
+            <xs:enumeration value="@string/hockeyapp_update_dialog_negative_button" />
+            <xs:enumeration value="@string/hockeyapp_update_dialog_positive_button" />
+            <xs:enumeration value="@string/hockeyapp_update_dialog_title" />
+            <xs:enumeration value="@string/hockeyapp_update_loading" />
+            <xs:enumeration value="@string/hockeyapp_update_mandatory_toast" />
+            <xs:enumeration value="@string/hockeyapp_update_newest_version" />
+            <xs:enumeration value="@string/hockeyapp_update_no_info" />
+            <xs:enumeration value="@string/hockeyapp_update_restore" />
+            <xs:enumeration value="@string/hockeyapp_update_title" />
+            <xs:enumeration value="@string/hockeyapp_update_unknown_size" />
+            <xs:enumeration value="@string/hockeyapp_update_version" />
+            <xs:enumeration value="@string/hockeyapp_update_version_details_label" />
+            <xs:enumeration value="@string/library_name" />
+            <xs:enumeration value="@android:string/cancel" />
+            <xs:enumeration value="@android:string/copy" />
+            <xs:enumeration value="@android:string/copyUrl" />
+            <xs:enumeration value="@android:string/cut" />
+            <xs:enumeration value="@android:string/defaultMsisdnAlphaTag" />
+            <xs:enumeration value="@android:string/defaultVoiceMailAlphaTag" />
+            <xs:enumeration value="@android:string/dialog_alert_title" />
+            <xs:enumeration value="@android:string/emptyPhoneNumber" />
+            <xs:enumeration value="@android:string/fingerprint_icon_content_description" />
+            <xs:enumeration value="@android:string/httpErrorBadUrl" />
+            <xs:enumeration value="@android:string/httpErrorUnsupportedScheme" />
+            <xs:enumeration value="@android:string/no" />
+            <xs:enumeration value="@android:string/ok" />
+            <xs:enumeration value="@android:string/paste" />
+            <xs:enumeration value="@android:string/search_go" />
+            <xs:enumeration value="@android:string/selectAll" />
+            <xs:enumeration value="@android:string/selectTextMode" />
+            <xs:enumeration value="@android:string/status_bar_notification_info_overflow" />
+            <xs:enumeration value="@android:string/unknownName" />
+            <xs:enumeration value="@android:string/untitled" />
+            <xs:enumeration value="@android:string/VideoView_error_button" />
+            <xs:enumeration value="@android:string/VideoView_error_text_invalid_progressive_playback" />
+            <xs:enumeration value="@android:string/VideoView_error_text_unknown" />
+            <xs:enumeration value="@android:string/VideoView_error_title" />
+            <xs:enumeration value="@android:string/yes" />
+            <xs:enumeration value="?android:attr/candidatesTextStyleSpans" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="visibility">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="gone" />
+            <xs:enumeration value="invisible" />
+            <xs:enumeration value="visible" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>
